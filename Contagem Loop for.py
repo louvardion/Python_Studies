@@ -7,7 +7,7 @@ print("Carregando:")
 for i in range(total + 1):
     barra = "=" * i + " " * (total - i)
     porcentagem = int((i / total ) * 100)
-    print(f"\r[{barra}] {porcentagem}%", end = "", flush = True)
+    print(f"\r[{barra}] {porcentagem:3d}%", end = "", flush = True)
     time.sleep(0.08)
 
 print("\nConcluído!\n")
