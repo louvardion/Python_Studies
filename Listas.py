@@ -117,5 +117,12 @@ resultado = [x.upper() for x in nomes if x[0].lower() == 'a']
 
 print(resultado)
 
+#experimentando zip em outras coisas
 
-        
+nomes1 = ['Catarina', 'Júlio', 'César']
+sobrenomes1 = ['Silva', 'Costa', 'Lippaus']
+idades1 = [23, 22, 23]
+pesos1 = [60.1, 70.5, 88.6]
+clientes1 = zip(nomes1, sobrenomes1, idades1, pesos1)
+
+print(list(clientes1))
